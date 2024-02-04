@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# 25-5 Clock
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+The 25-5 Clock is a web-based timer application designed to facilitate a popular time management technique known as the Pomodoro Technique. This technique involves breaking work into intervals, traditionally 25 minutes in length, separated by short breaks.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+### Adjustable Timers
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Break Length:** Customize the duration of your break intervals.
+- **Session Length:** Set the time for your work sessions to suit your productivity preferences.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Real-time Countdown
 
-### `npm test`
+- **Live Countdown Display:** Observe the countdown in real-time as you focus on your tasks.
+- **Session and Break Switch:** Automatically switches between work sessions and breaks.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Controls
 
-### `npm run build`
+- **Start/Stop Button:** Initiate or pause the timer at any point.
+- **Reset Button:** Clear and reset the timer to its initial state.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Audio Feedback
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Audible Alert:** A pleasant sound alert signals the end of each work or break session.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How to Use
 
-### `npm run eject`
+1. **Adjust Session and Break Lengths:** Customize your work and break durations using the provided buttons.
+2. **Start the Timer:** Press the "Start/Stop" button to initiate the timer countdown.
+3. **Monitor Progress:** Watch the live countdown and stay focused during work sessions.
+4. **Audio Alert:** Receive an audible alert signaling the end of a session or break.
+5. **Reset and Repeat:** Utilize the "Reset" button to clear the timer and start a new session.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **React:** The application is built using the React JavaScript library for a dynamic and responsive user interface.
+- **CSS:** Custom styling enhances the visual appeal and user experience.
+- **Audio Integration:** An audio element provides a pleasant alert at the end of each timer cycle.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Purpose
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The 25-5 Clock is designed to promote time management and productivity by encouraging focused work intervals followed by short breaks. This project offers a simple and effective tool for individuals seeking a structured approach to enhance their work or study routine.
 
-## Learn More
+## Access
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The 25-5 Clock is accessible online, providing a convenient and user-friendly solution for managing your work and break intervals. Experience the benefits of enhanced productivity and time management with the 25-5 Clock.
